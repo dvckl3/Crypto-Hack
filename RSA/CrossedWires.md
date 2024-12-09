@@ -71,17 +71,23 @@ print(q)
 ```
 Nhưng trên thực tế ta không cần phải factor $N$ ra để tính private key cho bài này. 
 í dụ trong trường hợp ta có sẵn $\displaystyle ( N,e,d)$ và ta muốn encrypt một plaintext sử dụng một public key khác, ta tạm gọi public key đó là $\displaystyle e'$. Thì lúc này ta có 
+
 $$\begin{equation*}
 c=m^{e'}
 \end{equation*}$$
+
 Ta đã biết $\displaystyle e,d$ thì ta có thể tính được $\displaystyle ed-1=k\varphi ( N)$ và nếu ta tính nghịch đảo của $\displaystyle e'$ theo modulo $\displaystyle k\varphi ( N)$ là $\displaystyle d'$ chẳng hạn thì ta sẽ có 
+
 $$\begin{equation*}
 e'd'\equiv 1(\bmod k\varphi ( N))
 \end{equation*}$$
+
 Lúc này ta được 
+
 $$\begin{equation*}
 c^{d'} =m^{e'd'} \equiv m^{1+k\varphi ( N)} \equiv m\bmod N
 \end{equation*}$$
+
 Ta sử dụng tính chất $\displaystyle a^{b} \equiv a^{c}\bmod N$ thì $\displaystyle b\equiv c(\bmod \varphi ( N))$ và ngoài ra do $\displaystyle ( m,N) =1$ cho nên $\displaystyle \left( m^{k} ,N\right) =1$ và ta có được đẳng thức ở trên. 
 
 Cuối cùng script giải bài này sẽ như sau: 
