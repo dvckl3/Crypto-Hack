@@ -33,8 +33,11 @@ print(f'c = {hex(c)}')
 
 
 Đối với bài này ta để ý rằng khóa bí mật $d$ được khởi tạo trước từ đầu và ta dễ dàng kiểm tra điều kiện của $d$ thỏa mãn để ta sử dụng Wiener's Attack. 
+
 Trước tiên ta cài thư viện ở đây để attack: https://github.com/orisano/owiener
+
 Chi tiết về cơ sở toán học của thuật toán mọi người có thể xem ở đây: https://hackmd.io/@dvck13/rydikXp1ke
+
 Sau đây là code
 
 ```python
