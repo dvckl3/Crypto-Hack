@@ -1,4 +1,4 @@
-# Wiener's Attack
+# Everything is Big
 Source code của bài: 
 ```python
 #!/usr/bin/env python3
