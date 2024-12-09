@@ -70,7 +70,8 @@ print(q)
 
 ```
 Nhưng trên thực tế ta không cần phải factor $N$ ra để tính private key cho bài này. 
-í dụ trong trường hợp ta có sẵn $\displaystyle ( N,e,d)$ và ta muốn encrypt một plaintext sử dụng một public key khác, ta tạm gọi public key đó là $\displaystyle e'$. Thì lúc này ta có 
+
+Ví dụ trong trường hợp ta có sẵn $\displaystyle ( N,e,d)$ và ta muốn encrypt một plaintext sử dụng một public key khác, ta tạm gọi public key đó là $\displaystyle e'$. Thì lúc này ta có 
 
 $$\begin{equation*}
 c=m^{e'}
