@@ -82,7 +82,7 @@ m\equiv c_{3}(\bmod n_{3})
 
 Hệ sẽ có họ nghiệm duy nhất theo modulo $\displaystyle n_{1} n_{2} n_{3}$ dẫn tới $\displaystyle m=x^{3} +kn_{1} n_{2} n_{3} ,k\in \mathbb{Z}^{*}$ nhưng ta có $\displaystyle x\leqslant n_{i} ,\forall i$ cho nên $\displaystyle x^{3} \leqslant n_{1} n_{2} n_{3}$ kéo theo $\displaystyle m=x^{3}$.
 
-Như vậy ta sẽ chọn ra cặp 3 số bất kì từ 5 số ở trên và hệ phương trình thặng dư cho tới khi ra được flag. Tổng cộng ta cần giải $\displaystyle \binom{7}{3}$ hệ phương trình. 
+Như vậy ta sẽ chọn ra cặp 3 số bất kì từ 5 số ở trên và giải hệ phương trình thặng dư cho tới khi ra được flag. Tổng cộng ta cần giải $\displaystyle \binom{7}{3}$ hệ phương trình. 
 
 Thuật toán trên là một trường hợp đặc biệt của Hastad Broadcast Attack
 
