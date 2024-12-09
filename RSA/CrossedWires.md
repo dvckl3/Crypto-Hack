@@ -1,5 +1,7 @@
-# Crosed Wires
+# Crossed Wires
+>I asked my friends to encrypt our secret flag before sending it to me, but instead of using my key, they've all used their own! Can you help?
 Chall cho ta một file source code như dưới đây: 
+
 ```python
 from Crypto.Util.number import getPrime, long_to_bytes, bytes_to_long, inverse
 import math
