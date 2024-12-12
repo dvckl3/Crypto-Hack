@@ -16,4 +16,3 @@ for p in prime:
                 print(f"valid p and x is {p},{x}")
             elif not (x*power)%p==powers[i+1]: break
 ```
-Một cách khác đó là ta biết rằng các số $\displaystyle 588,665,216,113,642,...$ là các lũy thừa với số mũ tăng dần giữa $\displaystyle x$ và $\displaystyle p$ tức là $\displaystyle x^{n} =588(\bmod p) ,x^{n+1} =665(\bmod p)$ và cứ như vậy. 
