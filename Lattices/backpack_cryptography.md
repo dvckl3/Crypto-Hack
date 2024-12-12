@@ -98,4 +98,7 @@ binary_representation = [1 if i == -1 else 0 for i in F][::-1]
 binary_string = ''.join(str(i) for i in binary_representation)  
 decoded_message = long_to_bytes(int(binary_string, 2))          
 print(decoded_message)
+
 ```
+
+Tài liệu tham khảo: [Lattice Reduction Attack on the Knapsack](https://www.cs.sjsu.edu/faculty/stamp/papers/topics/topic16/Knapsack.pdf)
